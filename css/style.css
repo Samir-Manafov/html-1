@@ -45,6 +45,11 @@ background-color: #000;
 color: white;
 margin-top: 30px;
 }
+.intro-right-side{
+    padding: 95px;
+    margin-top: -80px;
+    
+}
 
 .intro-left-side .cv{
     background-color: #fff;
@@ -63,12 +68,69 @@ margin-top: 30px;
     font-weight: 25;
 }
 
+.Services h3 {
+    font-size: 22px;
+    color: #FF5E69;
+    font-weight: 35px;
+    text-align: center;
+    padding-top: 90px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    
+}
+
+
+.Services h6{
+    text-align: center;
+font-size: 54px;
+margin-top: 30px    ;
+
+
+}
 
 .emekdaslar{
     display: flex;
     justify-content: space-around;
     margin-right: 5px;
 }
+.service-cards h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.service-cards article{
+    font-size: 16px;
+    color: #666;
+}
+.service-cards li{
+    width: 306px;
+}
+
+.service-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(306px,1fr));
+    gap: 50px;
+    margin-left: 130px;
+    align-items: normal;
+    
+    
+    
+}
+.service-cards :hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(85, 75, 75, 0.182);
+    transition: 0.3s;
+    padding: 2px 16px;
+}
+
+.service-cards ul{
+    font-weight: bolder;
+    margin: -10px;
+    padding: 30px;
+}
+
 @media (min-width: 768px) {
     header nav {
         display: block;
